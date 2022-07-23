@@ -68,15 +68,18 @@ if __name__ == "__main__":
     
     #eval final
     print('eval final')
-    evaluate(model, test_loader, 1, args.device, foldername=foldername)
+    evaluate(model, val_loader, 1, args.device, foldername=foldername)
     
     #eval best
     print('eval best')
     foldername = "./check_points/noise_type_" + str(1) + "/"
     output_path = foldername + "/model.pth"
     model.load_state_dict(torch.load(output_path))
-    evaluate(model, test_loader, 1, args.device, foldername=foldername)
+    evaluate(model, val_loader, 1, args.device, foldername=foldername)
     
+    #don't use before final model is determined
+    print('eval test')
+    evaluate(model, test_loader, 1, args.device, foldername=foldername)
     
     
     
