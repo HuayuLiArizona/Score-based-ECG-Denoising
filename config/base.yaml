@@ -1,0 +1,15 @@
+
+#type: args
+
+train:
+  feats: 80
+  epochs: 400
+  batch_size: 96 
+  lr: 1.0e-3
+
+diffusion:
+  beta_start: 0.0001
+  beta_end: 0.5
+  num_steps: 50
+  schedule: "quad"
+
