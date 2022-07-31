@@ -26,3 +26,7 @@ bash ./data/download_data.sh
 ~~~
 !python -W ignore eval_new.py
 ~~~
+
+
+
+## Citing our work
