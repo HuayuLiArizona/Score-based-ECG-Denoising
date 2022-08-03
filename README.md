@@ -30,3 +30,11 @@ bash ./data/download_data.sh
 
 
 ## Citing our work
+
+our work is currantly under review.
+
+## Acknowledgement
+
+The data preprocessing is directly taken from [DeepFilter](https://www.sciencedirect.com/science/article/pii/S1746809421005899).
+
+
