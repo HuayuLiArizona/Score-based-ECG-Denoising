@@ -1,5 +1,5 @@
 # Score-based-ECG-Denoising
-This repository contains the codes for [DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal](https://arxiv.org/abs/2208.00542)
+This repository contains the codes for [DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal](https://ieeexplore.ieee.org/document/10018543)
 
 
 
