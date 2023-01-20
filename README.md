@@ -31,15 +31,8 @@ bash ./data/download_data.sh
 
 ## Citing our work
 
-@ARTICLE{10018543,
-  author={Li, Huayu and Ditzler, Gregory and Roveda, Janet and Li, Ao},
-  journal={IEEE Journal of Biomedical and Health Informatics}, 
-  title={DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-11},
-  doi={10.1109/JBHI.2023.3237712}}
+H. Li, G. Ditzler, J. Roveda and A. Li, "DeScoD-ECG: Deep Score-Based Diffusion Model for ECG Baseline Wander and Noise Removal," in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2023.3237712.
+
 
 ## Acknowledgement
 
