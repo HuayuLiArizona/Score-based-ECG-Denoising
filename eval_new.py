@@ -47,14 +47,14 @@ if __name__ == "__main__":
             model.load_state_dict(torch.load(output_path))
             
             
-            [_, _, _, y_test] = Data_Preparation(n_type)
+            [_, X_test, _, y_test] = Data_Preparation(n_type)
             
-            #X_test = torch.FloatTensor(X_test)
-            #X_test = X_test.permute(0,2,1)
+            X_test = torch.FloatTensor(X_test)
+            X_test = X_test.permute(0,2,1)
             
             y_test = torch.FloatTensor(y_test)
             y_test = y_test.permute(0,2,1)
-            X_test = y_test.detach()
+            X_test = X_test.detach()
             #test_set = TensorDataset(y_test, X_test)
             test_set = TensorDataset(y_test, X_test)
             
