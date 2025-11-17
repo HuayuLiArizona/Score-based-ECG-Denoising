@@ -47,7 +47,7 @@ if __name__ == "__main__":
             model.load_state_dict(torch.load(output_path))
             
             
-            [_, X_test, _, y_test] = Data_Preparation(n_type)
+            [_, _, X_test, y_test] = Data_Preparation(n_type)
             
             X_test = torch.FloatTensor(X_test)
             X_test = X_test.permute(0,2,1)
@@ -125,3 +125,4 @@ if __name__ == "__main__":
             
 
         
+
